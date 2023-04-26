@@ -1,0 +1,29 @@
+{
+  "name": "actividaddistrital",
+  "version": "1.0.0",
+  "description": "Aqui se hara el proyecto correspondiente a la actividad de la distrital",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danik616/ActividadDistrital.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Danik616/ActividadDistrital/issues"
+  },
+  "homepage": "https://github.com/Danik616/ActividadDistrital#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  },
+  "imports": {
+    "#Config/*": "./config/*"
+  }
+}
